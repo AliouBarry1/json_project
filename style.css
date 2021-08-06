@@ -1,1 +1,22 @@
 /* Add your styling here: */
+
+body {
+    text-align: center;
+    background-color: rgb(50, 187, 197);
+}
+
+#profile {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+#profile div  {
+    display:flex;
+    justify-content: space-around;
+    border: 5px solid rgb(171, 182, 187);
+}
+
+#profile img {
+    border: 5px solid rgb(177, 143, 182) ;
+}
